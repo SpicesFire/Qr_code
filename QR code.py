@@ -1,3 +1,6 @@
+"""
+This program is made by Kerem Aydın Güven
+"""
 import qrcode
 import image
 link = input("Enter URL: ")
