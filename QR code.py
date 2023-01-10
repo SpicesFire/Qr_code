@@ -1,5 +1,6 @@
 import qrcode
 import image
-link = input("URL'yi giriniz:")
+link = input("Enter URL:")
+file_name = input("Enter file name: ")
 code=qrcode.make(link)
-code.save("reis.png")
+code.save(file_name)
